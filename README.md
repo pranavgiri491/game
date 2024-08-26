@@ -9,7 +9,7 @@ Getting Started
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/your-gamerepo.git
+https://github.com/pranavgiri491/game/tree/main
 Open index.html in your browser.
 Contributing
 Fork the repo, create a branch, commit changes, and open a pull request!

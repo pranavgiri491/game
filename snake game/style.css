@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #7ba1e8, #2a5298);
+}
+
+.container {
+    text-align: center;
+    width: 500px;
+    position: relative;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+}
+
+.scoreboard {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.game-container {
+    border: 5px solid #7f85f9;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+canvas {
+    display: block;
+    border-radius: 10px;
+}
+
+.game-controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #00c853;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00a94a;
+}
+
+.game-over-screen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-over-screen.active {
+    display: block;
+}
+
+.game-over-screen h2 {
+    margin: 0;
+    font-size: 2em;
+}
